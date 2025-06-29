@@ -38,7 +38,14 @@ public class UltimateQATest extends PageSetup {
 
     }
 
+    @Test
+    public void testThree() {
+        WebElement blueField = driver.findElementByXPath("");
+        Assertions.assertEquals("#2ea3f2", blueField.getCssValue("blackground-color"));
 
+
+
+    }
 
 
 }
